@@ -1,0 +1,141 @@
+svg {
+  fill: white;
+  width: 8rem;
+  cursor: pointer;
+}
+
+header {
+  background-color: #F72210;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  max-width: 1310px;
+}
+
+.header-content {
+  padding: 0.7rem 0;
+}
+
+.header-subscribe{
+  display: flex;
+}
+
+.header-user-icon {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1rem;
+  padding-right: 0.62rem;
+}
+
+.subscribe-button {
+  font-weight: bolder;
+  background-color: #ffe400;
+  color: black;
+  border: none;
+  border-radius: 0.18rem;
+  padding: 0 0.3rem;
+  font-size: 0.75rem;
+  height: 1.5rem;
+}
+
+.header-menu {
+  padding: 0 0.8rem;
+  padding-top: 0.29rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.header-login {
+  display: none;
+}
+
+.date-info {
+  display: none;
+}
+
+.nav-bar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header-user-icon {
+    display: none;
+  }
+
+  .header-login {
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    padding-right: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .subscribe-button {
+    font-size: 1rem;
+  }
+
+  .header-menu {
+    font-size: 1rem;
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .date-info {
+    display: block;
+    color: white;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  svg {
+    width: 22rem;
+  }
+
+  .header-subscribe {
+    padding-top: 2rem;
+    padding-right: 2rem;
+  }
+
+  .header-menu{
+    display: none ;
+  }
+
+  .nav-bar{
+    display: flex;
+    margin: 0;
+    background-color: white;
+  }
+
+  .nav-list {
+    border-radius: 0px;
+    width: 72rem;
+  }
+
+  .nav-item{
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    padding: 0.25rem 0.8rem;
+    margin: 0.5rem 0;
+    border-top: transparent;
+    border-bottom: transparent;
+  }
+
+  .nav-item-search {
+    border: transparent;
+    width: 4rem;
+  }
+
+  .main-header{
+    padding: 0;
+  }
+
+  .fancy-div {
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+    width: 6rem;
+    height: 0.8rem;
+  }
+
+}
