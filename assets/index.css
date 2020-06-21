@@ -1054,6 +1054,11 @@ footer {
 
   .footer-icons1 > * {
     font-size: 2em;
-}
+  }
+
+  .versus-icon {
+    width: 7%;
+    height: 2vw;
+  }
 
 }
