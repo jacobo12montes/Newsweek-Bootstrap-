@@ -1000,10 +1000,60 @@ footer {
   }
 
   .magazine {
-    margin-top: 0em !important;
     grid-column: 1 / 4;
     grid-row: 8;
-    padding-bottom: 0em !important;
+  }
+
+  .editors-pick {
+    grid-column: 1 / 4;
+    grid-row: 9;
+  }
+
+  .picked-item-cont {
+    width: 25%;
+  }
+
+  .categories-title, .editors-title, .picks-summary {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+  }
+
+  .picks-container {
+    grid-column: 1 / 4;
+    grid-row: 10;
+  }
+
+  .bottom-page {
+    justify-content: space-between;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    grid-column: 1 / 4;
+    grid-row: 11;
+  }
+
+  .botp1 {
+    width: 69%;
+  }
+
+  .newslbottom {
+    width: 29%;
+  }
+
+  .ci-1 {
+    font-size: 2vw;
+  }
+
+  .ci-2 {
+    font-size: 1.4vw;
+  }
+
+  footer {
+    grid-column: 1 / 4;
+    grid-row: 12;
+  }
+
+  .footer-icons1 > * {
+    font-size: 2em;
 }
 
 }
