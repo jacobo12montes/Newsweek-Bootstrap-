@@ -6,8 +6,8 @@ body {
   color: #333;
   font-size: 13px;
   line-height: 18px;
-  font-family: Arial,Helvetica,sans-serif;
-  background-color: #F4F5F7;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f5f7;
 }
 
 svg {
@@ -17,7 +17,7 @@ svg {
 }
 
 header {
-  background-color: #F72210;
+  background-color: #f72210;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -29,7 +29,7 @@ header {
   padding: 0.7rem 0;
 }
 
-.header-subscribe{
+.header-subscribe {
   display: flex;
 }
 
@@ -46,7 +46,6 @@ header {
   border: none;
   border-radius: 0.18rem;
   padding: 0 0.3rem;
-  font-size: 0.75rem;
   height: 1.5rem;
   font-size: 1rem;
 }
@@ -77,7 +76,7 @@ header {
 }
 
 .nav-list {
-  border-radius: 0px;
+  border-radius: none;
   width: 90%;
   margin: 1vw 0;
 }
@@ -334,7 +333,7 @@ header {
 
 .news-signup{
   max-width: 22em;
-  background-color: #F4F5F7;
+  background-color: #f4f5f7;
   border: 1px solid #e5e5e5;
 }
 
