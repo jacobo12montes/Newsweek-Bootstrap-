@@ -325,7 +325,7 @@ header {
 .nw-ti,
 .magazine-title-inside,
 .editors-title-inside {
-  font-size: 1.188;
+  font-size: 1.6vw;
   font-weight: bolder;
   color: black;
 }
@@ -455,7 +455,8 @@ header {
 .picks-summary {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  line-height: 1em;
 }
 
 .categories-title:hover,
@@ -463,6 +464,10 @@ header {
 .picks-summary:hover {
   text-decoration: underline #f72210;
   cursor: pointer;
+}
+
+.summ-edit{
+  font-size: 1.3em;
 }
 
 .editors-item {
