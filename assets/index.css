@@ -322,10 +322,15 @@ header {
   background-color: #fff;
 }
 
-.nw-ti,
+.nw-ti {
+  font-size: 1.8vw;
+  font-weight: bolder;
+  color: black;
+}
+
 .magazine-title-inside,
 .editors-title-inside {
-  font-size: 1.6vw;
+  font-size: 2.4vw;
   font-weight: bolder;
   color: black;
 }
@@ -466,7 +471,7 @@ header {
   cursor: pointer;
 }
 
-.summ-edit{
+.summ-edit {
   font-size: 1.3em;
 }
 
