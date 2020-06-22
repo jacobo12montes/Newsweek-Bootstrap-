@@ -861,7 +861,7 @@ footer {
   }
 
   .med-cult-turn {
-    padding: 0 10px;
+    /* padding: 0 10px; */
   }
 
   .subt-turn,
@@ -922,9 +922,16 @@ footer {
 @media (min-width: 992px) {
   .image-turn,
   .image-culture {
-    width: 15vw;
-    height: 14vw;
+    width: 11vw;
+    height: 11vw;
+    max-width: ;
+    max-height: ;
   }
+
+  .img-extra-picks {
+    width: 12vw;
+    height: 8vw;
+}
 
   .date-info {
     display: block;
