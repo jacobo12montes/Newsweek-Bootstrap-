@@ -78,7 +78,7 @@ header {
 }
 
 .nav-list {
-  border-radius: none;
+  border-radius: 0;
   width: 90%;
   margin: 1vw 0;
 }
@@ -870,10 +870,6 @@ footer {
     height: 14vw;
   }
 
-  .med-cult-turn {
-    /* padding: 0 10px; */
-  }
-
   .subt-turn,
   .subt-culture {
     font-size: 1.5vw;
@@ -1097,5 +1093,11 @@ footer {
   .cover-image-magazine {
     width: 21.5vw;
     height: 27vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .lazyloaded {
+    width: 24vw;
   }
 }
