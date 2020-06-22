@@ -1094,6 +1094,10 @@ footer {
     width: 21.5vw;
     height: 27vw;
   }
+
+  .nw-ti {
+    font-size: 1.4vw;
+  }
 }
 
 @media (max-width: 768px) {
