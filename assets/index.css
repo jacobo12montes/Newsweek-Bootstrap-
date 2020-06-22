@@ -917,6 +917,20 @@ footer {
   .image-picks {
     height: 20vw;
   }
+
+  .image-debate1,
+  .image-debate3,
+  .image-opinion {
+    width: 6vw;
+    height: 6vw;
+  }
+
+  .info-debate11 a,
+  .info-debate31 a,
+  .info-opinion11 a,
+  .info-more-stories11 a {
+    font-size: 1.5vw;
+  }
 }
 
 @media (min-width: 992px) {
@@ -924,14 +938,12 @@ footer {
   .image-culture {
     width: 11vw;
     height: 11vw;
-    max-width: ;
-    max-height: ;
   }
 
   .img-extra-picks {
     width: 12vw;
     height: 8vw;
-}
+  }
 
   .date-info {
     display: block;
