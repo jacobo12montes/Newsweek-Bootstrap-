@@ -3,6 +3,8 @@ h2 {
 }
 
 body {
+  margin: 0 auto;
+  max-width: 1310px;
   color: #333;
   font-size: 13px;
   line-height: 18px;
@@ -517,7 +519,8 @@ header {
 }
 
 .img-extra-picks {
-  width: 7.308em;
+  width: 12vw;
+  height: 12vw;
 }
 
 .extra-summary {
@@ -853,8 +856,8 @@ footer {
 
   .image-turn,
   .image-culture {
-    width: 11vw;
-    height: 12vw;
+    width: 15vw;
+    height: 14vw;
   }
 
   .med-cult-turn {
@@ -871,8 +874,8 @@ footer {
   }
 
   .cover-image-magazine {
-    width: 15em;
-    height: 22em;
+    width: 22vw;
+    height: 30vw;
   }
 
   .image-magazine {
@@ -917,6 +920,12 @@ footer {
 }
 
 @media (min-width: 992px) {
+  .image-turn,
+  .image-culture {
+    width: 15vw;
+    height: 14vw;
+  }
+
   .date-info {
     display: block;
     color: white;
@@ -1054,5 +1063,10 @@ footer {
   .versus-icon {
     width: 7%;
     height: 2vw;
+  }
+
+  .cover-image-magazine {
+    width: 21.5vw;
+    height: 27vw;
   }
 }
