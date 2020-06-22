@@ -859,7 +859,7 @@ footer {
   }
 
   .images-container {
-    display: grid !important;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
