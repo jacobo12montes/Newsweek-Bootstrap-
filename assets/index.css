@@ -760,16 +760,12 @@ footer {
   }
 
   .turn-container {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
     grid-column: 2;
     grid-row: 2;
     margin-top: 0 !important;
   }
 
   .culture-travel-container {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
     grid-column: 2;
     grid-row: 3;
     margin-top: 0 !important;
