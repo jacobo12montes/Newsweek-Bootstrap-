@@ -772,7 +772,6 @@ footer {
   }
 
   .more-stories-container {
-    padding-top: 0 !important;
     overflow-y: scroll;
     height: 79.5em;
     margin-top: 0 !important;
