@@ -1096,6 +1096,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .subsbottom {
+    align-items: center;
+    flex-direction: column;
+  }
+
   .lazyloaded {
     width: 24vw;
   }
