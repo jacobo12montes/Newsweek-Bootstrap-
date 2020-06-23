@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/index.css">
+    <title>Newsweek</title>
+  </head>
+  <body>
+    <header class="container container-xs main-header">
+      <div class="d-flex d-flex flex-column">
+        <div class="d-flex justify-content-between header-content">
+          <div class="date-info">
+            <i class="fas fa-cloud-showers-heavy"></i>
+            15°C Manizales, CO <i class="fas fa-chevron-right"></i>
+            <p>Wed, June 03, 2020</p>
+          </div>
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background: new 0 0 395.6 60;" xml:space="preserve"><g>
+            <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+            </g>
+          </svg>
+          <div class="header-subscribe">
+            <div class="header-login">LOGIN</div>
+            <div class="header-user-icon"><i class="fas fa-user"></i></div>
+            <button type="submit" class="subscribe-button">SUBSCRIBE <span class="hide-brace"><i class="fas fa-chevron-right"></i></span></button>
+            <div class="header-menu"><i class="fas fa-bars"></i></div>
+          </div>
+        </div>
+        <div class="nav-bar">
+          <ul class="nav-list list-group list-group-horizontal">
+            <li class="nav-item list-group-item us"><a href="#">U.S</a></li>
+            <li class="nav-item list-group-item"><a href="#">World</a></li>
+            <li class="nav-item list-group-item"><a href="#">Business</a></li>
+            <li class="nav-item list-group-item tech-science"><a href="#">Tech & Science</a></li>
+            <li class="nav-item list-group-item"><a href="#">Culture</a></li>
+            <li class="nav-item list-group-item"><a href="#">Newsweek</a></li>
+            <li class="nav-item list-group-item"><a href="#">Sports</a></li>
+            <li class="nav-item list-group-item"><a href="#">Health</a></li>
+            <li class="nav-item list-group-item"><a href="#">The Debate</a></li>
+            <li class="nav-item list-group-item"><a href="#">Vantage</a></li>
+            <li class="nav-item list-group-item weather"><a href="#">Weather</a></li>
+          </ul>
+          <div class="search-container d-flex justify-content-center align-middle text-align-center">
+            <div class="">
+              <input class="nav-item-search" type="text" placeholder="Search">
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <i class="fas fa-search justify-content-center"></i>
+            </div>  
+            </div>
+          <div class="fancy-div"></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="top-story-container d-flex flex-column">
+        <p class="top-story-title">TOP STORY</p>
+        <div class="d-flex main-top-story align-items-end">
+          <div class="bottom-tag">U.S.</div>
+        </div>
+        <h2 class="title-summary"><a href="#">2 Buffalo Police Officers Charged in Assault of Protester</a></h2>
+        <p class="summary">The officers have been charged with second-degree assault after a 75-year-old protester was shoved to the ground, Erie County District Attorney John Flynn announced Saturday.</p>
+      </div>
+      <div class="featured-stories-container d-flex flex-column">
+        <p class="featured-stories-title">FEATURED STORIES</p>
+        <div class="d-flex main-featured-stories align-items-end">
+          <div class="bottom-tag">U.S.</div>
+        </div>
+        <h2 class="title-summary-fs"><a href="#">Derek Chauvin Was 'Afraid' of Black People, Nightclub Coworkers Say</a></h2>
+        <p class="summary-fs">An employee of the El Nuevo Rodeo club has described tensions between the pair when they worked together.
+        </p>
+      <div class="d-flex main-featured-stories mfs1 align-items-end">
+        <div class="bottom-tag">WORLD</div>
+      </div>
+      <h2 class="title-summary-fs"><a href="#">Exclusive Poll Shows Most in Hong Kong Say Freedoms Threatened</a></h2>
+      <p class="summary-fs">While 60 percent in Hong Kong believe their level of freedom is under threat, only 43 percent would join protests against rising Chinese Communist Party influence and just 28 percent would risk their life.
+      </p>
+      <div class="d-flex main-featured-stories mfs2 align-items-end">
+        <div class="bottom-tag">U.S.</div>
+      </div>
+      <h2 class="title-summary-fs"><a href="#">In Georgia Primary, Trump Gets Over 140,000 More Votes Than Biden</a></h2>
+      <p class="summary-fs">The president also received more votes than the combined total for all of the Democrats in the primary, including candidates who dropped out of the race months ago.
+      </p>
+      <div class="d-flex main-featured-stories mfs3 align-items-end">
+        <div class="bottom-tag">U.S.</div>
+      </div>
+      <h2 class="title-summary-fs"><a href="#">Court-Appointed Advocate Calls Decision to Drop Flynn Case 'Gross Abuse'</a></h2>
+      <p class="summary-fs">Sidney Powell, a high-profile legal commentator often appearing on Fox News and member of Flynn's legal team, called Gleeson's claims "predictable and wrong."
+      </p>
+      <div class="d-flex main-featured-stories mfs4 align-items-end">
+        <div class="bottom-tag">U.S.</div>
+      </div>
+      <h2 class="title-summary-fs"><a href="#">National Economic Council Director Says There's No Systemic Racism in U.S.</a></h2>
+      <p class="summary-fs">Larry Kudlow told reporters he believes George Floyd's death resulted from corrupt individuals and does not point to a systemic law enforcement problem.
+      </p>
+      </div>
+      <div class="debate-container container flex-column mt-3">
+        <p class="debate-title">THE DEBATE</p>
+        <div class="debate-item1 d-flex">
+          <img class="image-debate1" src="https://d.newsweek.com/en/full/1596838/eugene-kontorovich.png?w=150&h=150&f=814307c1a56b61776f2e6954a2ec2cdd" alt="icon">
+          <div class="info-debate1 pl-3">
+            <p class="info-debate11 mb-0 pt-3 pb-2"><a href="#">Governors Can't Pick and Choose Constitutional Rights</a></p>
+            <p class="info-debate12 mb-0">BY <strong>EUGENE KONTOROVICH</strong></p>
+          </div>
+        </div>
+        <div class="debate-item2 d-flex justify-content-center align-items-center">
+          <div class="deb-line-deco"></div>
+          <div class="versus-icon d-flex justify-content-center align-items-center text-white"><strong>VS</strong></div>
+          <div class="deb-line-deco"></div>
+        </div>
+        <div class="debate-item3 d-flex">
+          <div class="info-debate3">
+            <p class="info-debate31 mb-0 pt-3 pb-2"><a href="#">Governors Can't Pick and Choose Constitutional Rights</a></p>
+            <p class="info-debate32 mb-0">BY <strong>EUGENE KONTOROVICH</strong></p>
+          </div>
+          <img class="image-debate3" src="https://d.newsweek.com/en/full/1596837/michele-goodwin.png?w=150&h=150&f=1ca7b38fdf287cb9199f0c5b38479324" alt="icon">
+        </div>      
+      </div>
+      <div class="opinion-container d-flex flex-column mt-3">
+        <p class="opinion-title">OPINION</p>
+        <div class="opinion-item d-flex py-2">
+          <img class="image-opinion" src="https://d.newsweek.com/en/full/1598655/mike-davis.png?w=63&h=63&f=088ec6cf79bb70275c7b6ac9e4f6d207" alt="icon">
+          <div class="info-opinion1 pl-3">
+            <p class="info-opinion11 mb-0 pt-3 pb-2"><a href="#">Democrats Reveal Their Partisan Hypocrisy on Biden and Kavanaugh</a></p>
+            <p class="info-debate12 mb-0"><strong>BY MIKE DAVIS</strong></p>
+          </div>
+        </div>
+        <div class="opinion-item d-flex py-2">
+          <img class="image-opinion" src="https://d.newsweek.com/en/full/1598655/mike-davis.png?w=63&h=63&f=088ec6cf79bb70275c7b6ac9e4f6d207" alt="icon">
+          <div class="info-opinion1 pl-3">
+            <p class="info-opinion11 mb-0 pt-3 pb-2"><a href="#">Democrats Reveal Their Partisan Hypocrisy on Biden and Kavanaugh</a></p>
+            <p class="info-debate12 mb-0"><strong>BY MIKE DAVIS</strong></p>
+          </div>
+        </div>
+        <div class="opinion-item d-flex py-2">
+          <img class="image-opinion" src="https://d.newsweek.com/en/full/1598655/mike-davis.png?w=63&h=63&f=088ec6cf79bb70275c7b6ac9e4f6d207" alt="icon">
+          <div class="info-opinion1 pl-3">
+            <p class="info-opinion11 mb-0 pt-3 pb-2"><a href="#">Democrats Reveal Their Partisan Hypocrisy on Biden and Kavanaugh</a></p>
+            <p class="info-debate12 mb-0"><strong>BY MIKE DAVIS</strong></p>
+          </div>
+        </div>
+        <div class="opinion-item d-flex py-2">
+          <img class="image-opinion" src="https://d.newsweek.com/en/full/1598655/mike-davis.png?w=63&h=63&f=088ec6cf79bb70275c7b6ac9e4f6d207" alt="icon">
+          <div class="info-opinion1 pl-3">
+            <p class="info-opinion11 mb-0 pt-3 pb-2"><a href="#">Democrats Reveal Their Partisan Hypocrisy on Biden and Kavanaugh</a></p>
+            <p class="info-debate12 mb-0"><strong>BY MIKE DAVIS</strong></p>
+          </div>
+        </div>
+        <div class="opinion-item d-flex py-2">
+          <img class="image-opinion" src="https://d.newsweek.com/en/full/1598655/mike-davis.png?w=63&h=63&f=088ec6cf79bb70275c7b6ac9e4f6d207" alt="icon">
+          <div class="info-opinion1 pl-3">
+            <p class="info-opinion11 mb-0 pt-3 pb-2"><a href="#">Democrats Reveal Their Partisan Hypocrisy on Biden and Kavanaugh</a></p>
+            <p class="info-debate12 mb-0"><strong>BY MIKE DAVIS</strong></p>
+          </div>
+        </div>
+        <div class="opinion-item d-flex py-2">
+          <img class="image-opinion" src="https://d.newsweek.com/en/full/1598655/mike-davis.png?w=63&h=63&f=088ec6cf79bb70275c7b6ac9e4f6d207" alt="icon">
+          <div class="info-opinion1 pl-3">
+            <p class="info-opinion11 mb-0 pt-3 pb-2"><a href="#">Democrats Reveal Their Partisan Hypocrisy on Biden and Kavanaugh</a></p>
+            <p class="info-debate12 mb-0"><strong>BY MIKE DAVIS</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="more-stories-container d-flex flex-column mt-3">
+        <p class="more-stories-title">MORE STORIES</p>
+        <div class="more-stories-item d-flex py-2">
+          <img class="image-more-stories" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.jpg?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="icon">
+          <div class="info-more-stories1 pl-3">
+            <p class="info-more-stories11 mb-0 pb-2"><a href="#">Will An Economic Rebound Be Enough to Boost Trump's Reelection Chances?</a></p>
+            <p class="info-more-stories12 mb-0">President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+          </div>
+        </div>
+        <div class="more-stories-item d-flex py-2">
+          <img class="image-more-stories" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.jpg?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="icon">
+          <div class="info-more-stories1 pl-3">
+            <p class="info-more-stories11 mb-0 pb-2"><a href="#">Will An Economic Rebound Be Enough to Boost Trump's Reelection Chances?</a></p>
+            <p class="info-more-stories12 mb-0">President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+          </div>
+        </div>
+        <div class="more-stories-item d-flex py-2">
+          <img class="image-more-stories" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.jpg?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="icon">
+          <div class="info-more-stories1 pl-3">
+            <p class="info-more-stories11 mb-0 pb-2"><a href="#">Will An Economic Rebound Be Enough to Boost Trump's Reelection Chances?</a></p>
+            <p class="info-more-stories12 mb-0">President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+          </div>
+        </div>
+        <div class="more-stories-item d-flex py-2">
+          <img class="image-more-stories" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.jpg?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="icon">
+          <div class="info-more-stories1 pl-3">
+            <p class="info-more-stories11 mb-0 pb-2"><a href="#">Will An Economic Rebound Be Enough to Boost Trump's Reelection Chances?</a></p>
+            <p class="info-more-stories12 mb-0">President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+          </div>
+        </div>
+        <div class="more-stories-item d-flex py-2">
+          <img class="image-more-stories" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.jpg?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="icon">
+          <div class="info-more-stories1 pl-3">
+            <p class="info-more-stories11 mb-0 pb-2"><a href="#">Will An Economic Rebound Be Enough to Boost Trump's Reelection Chances?</a></p>
+            <p class="info-more-stories12 mb-0">President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+          </div>
+        </div>
+        <div class="more-stories-item d-flex py-2">
+          <img class="image-more-stories" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.jpg?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="icon">
+          <div class="info-more-stories1 pl-3">
+            <p class="info-more-stories11 mb-0 pb-2"><a href="#">Will An Economic Rebound Be Enough to Boost Trump's Reelection Chances?</a></p>
+            <p class="info-more-stories12 mb-0">President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+          </div>
+        </div>
+                <div class="more-stories-item d-flex py-2">
+          <img class="image-more-stories" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.jpg?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="icon">
+          <div class="info-more-stories1 pl-3">
+            <p class="info-more-stories11 mb-0 pb-2"><a href="#">Will An Economic Rebound Be Enough to Boost Trump's Reelection Chances?</a></p>
+            <p class="info-more-stories12 mb-0">President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+          </div>
+        </div>
+        <div class="more-stories-item d-flex py-2">
+          <img class="image-more-stories" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.jpg?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="icon">
+          <div class="info-more-stories1 pl-3">
+            <p class="info-more-stories11 mb-0 pb-2"><a href="#">Will An Economic Rebound Be Enough to Boost Trump's Reelection Chances?</a></p>
+            <p class="info-more-stories12 mb-0">President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+          </div>
+        </div>
+        <div class="more-stories-item d-flex py-2">
+          <img class="image-more-stories" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.jpg?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="icon">
+          <div class="info-more-stories1 pl-3">
+            <p class="info-more-stories11 mb-0 pb-2"><a href="#">Will An Economic Rebound Be Enough to Boost Trump's Reelection Chances?</a></p>
+            <p class="info-more-stories12 mb-0">President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+          </div>
+        </div>
+        <div class="more-stories-item d-flex py-2">
+          <img class="image-more-stories" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.jpg?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="icon">
+          <div class="info-more-stories1 pl-3">
+            <p class="info-more-stories11 mb-0 pb-2"><a href="#">Will An Economic Rebound Be Enough to Boost Trump's Reelection Chances?</a></p>
+            <p class="info-more-stories12 mb-0">President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+          </div>
+        </div>
+        <div class="more-stories-item d-flex py-2">
+          <img class="image-more-stories" src="https://d.newsweek.com/en/full/1598605/trump-law-enforcement-roundtable-june-2020.jpg?w=95&h=95&f=0b85af670f81066838808386f1b2882e" alt="icon">
+          <div class="info-more-stories1 pl-3">
+            <p class="info-more-stories11 mb-0 pb-2"><a href="#">Will An Economic Rebound Be Enough to Boost Trump's Reelection Chances?</a></p>
+            <p class="info-more-stories12 mb-0">President Trump has seen a collapse in his poll numbers as his job approval rating dropped 10 points in one month.</p>
+          </div>
+        </div>
+      </div>
+      <div class="turn-container container flex-column mt-3">
+        <div class="ttcont">  
+          <p class="turn-title">MY TURN</p>
+        </div>  
+        <div class="images-container">
+          <div class="item-turn1 med-cult-turn">
+            <div class="image-turn">
+            </div>
+            <p class="subt-turn pt-3">'I'm Protesting As Spider-Man for the Black Lives Matter Movement'</p>
+          </div>
+          <div class="item-turn2 med-cult-turn">  
+            <div class="image-turn it1">
+            </div>
+            <p class="subt-turn pt-3">'We Lost Our Parents in the 2004 Tsunami'</p>
+          </div>
+          <div class="item-turn3 med-cult-turn">
+            <div class="image-turn it2">
+            </div>
+            <p class="subt-turn pt-3">'I Was Bullied About My Appearance, Now I'm A Meghan Markle Look-Alike'</p>
+          </div>  
+        </div>  
+      </div>
+      <div class="culture-travel-container d-flex flex-column">
+        <div class="cttcont">  
+          <p class="culture-title">CULTURE & TRAVEL</p>
+        </div>
+        <div class="images-container">  
+          <div class="cult-item1 med-cult-turn">
+            <div class="image-culture d-flex align-items-end">
+              <div class="bottom-tag">ANIMALS</div>
+            </div>
+            <p class="subt-culture py-3">Meet The Bull Who's Fathering the Next Generation of Walmart's Beef</p>
+          </div>
+          <div class="cult-item2 med-cult-turn">
+            <div class="image-culture imc1 d-flex align-items-end">
+              <div class="bottom-tag">WINE</div>
+            </div>
+            <p class="subt-culture pt-3">23 Black-Owned Wineries Worth Supporting Right Now</p>
+          </div>
+          <div class="cult-item3 med-cult-turn">
+            <div class="image-culture imc2 d-flex align-items-end">
+              <div class="bottom-tag">GEORGE FLOYD</div>
+            </div>
+            <p class="subt-culture pt-3">Black Lives Matter Protests Around the World, in Photos</p>
+          </div>
+        </div>  
+      </div>
+      <div class="newsletter-signup-container d-flex flex-column  align-items-center">
+        <div class="news-signup p-4">
+          <div class="newsletter-title d-flex">
+            <div class="icon-newsletter"></div>
+            <p class="nw-ti pl-2">START YOUR DAY WITH OUR TOP 5 ARTICLES</p>
+          </div>
+          <form class="d-flex flex-column">
+            <input class="sign-email mb-2" type="text" placeholder="Email address">
+            <input class="freesign-button mb-2" type="submit" value="FREE SIGN UP">
+          </form>
+        </div>  
+      </div>
+      <div class="magazine  mt-3 p-3">
+        <div class="title-magazine d-flex justify-content-center align-items-center">
+          <div class="icon-newsletter"></div>
+          <p class="magazine-title-inside m-0 pl-3">IN THE MAGAZINE</p>
+        </div>
+        <div class="mag-item-cont"> 
+          <div class="mag-pick-cont">
+            <div class="cover-image-magazine d-flex align-items-end mt-3">
+              <div class="bottom-tag">JUNE 26 ISSUE</div>
+            </div>
+            <p class="all-features py-3 d-flex justify-content-center m-0">SE ALL FEATURES  <i class="fas fa-chevron-right"></i> </p>
+          </div>
+          <div class="mag-pick-cont">
+            <div class="image-magazine d-flex align-items-end">
+            </div>
+            <div class="categories d-flex pt-3">
+              <span class="mag-tag">COVER</span>
+              <span class="mag-tag1">WORLD</span>
+            </div>
+            <p class="categories-title pt-3">On Tiananmen Anniversary, Hong Kong Protesters Brace for Chinese Crackdown</p>
+          </div>
+          <div class="mag-pick-cont">
+            <div class="image-magazine im-mg1 d-flex align-items-end">
+            </div>
+            <div class="categories d-flex pt-3">
+              <span class="mag-tag">PERISCOPE</span>
+              <span class="mag-tag1">OPINION</span>
+            </div>
+            <p class="categories-title pt-3">I'm Eric Garner's Mom. Four Cops Must Be Convicted in George Floyd's Death</p>
+          </div>
+          <div class="mag-pick-cont">
+            <div class="image-magazine im-mg2 d-flex align-items-end">
+            </div>
+            <div class="categories d-flex pt-3">
+              <span class="mag-tag">PERISCOPE</span>
+              <span class="mag-tag1">MY TURN</span>
+            </div>
+            <p class="categories-title pt-3">'I've Had to Paint 'Black Owned Business' on My Bar During the Riots'</p>
+          </div>
+          <div class="mag-pick-cont">
+            <div class="image-magazine im-mg3 d-flex align-items-end">
+            </div>
+            <div class="categories d-flex pt-3">
+              <span class="mag-tag">PERISCOPE</span>
+              <span class="mag-tag1">CULTURE</span>
+            </div>
+            <p class="categories-title pt-3">'I'm a Blue Lives Matter Activist, We've Defended Those Now Breaking Laws'</p>
+          </div>
+          <div class="mag-pick-cont">
+            <div class="image-magazine im-mg4 d-flex align-items-end">
+            </div>
+            <div class="categories d-flex pt-3">
+              <span class="mag-tag">PERISCOPE</span>
+              <span class="mag-tag1">CULTURE</span>
+            </div>
+            <p class="categories-title pt-3">Willie Mays Explains why the All-Star Game Meant so Much to his Generation</p>
+          </div>
+          <div class="mag-pick-cont">
+            <div class="image-magazine im-mg5 d-flex align-items-end">
+            </div>
+            <div class="categories d-flex pt-3">
+              <span class="mag-tag">PERISCOPE</span>
+              <span class="mag-tag1">CULTURE</span>
+            </div>
+            <p class="categories-title pt-3">Judd Apatow on Pete Davidson's 'Brave' Work in 'The King of Staten Island'</p>
+          </div>
+          <div class="mag-pick-cont">
+            <div class="image-magazine im-mg6 d-flex align-items-end">
+            </div>
+            <div class="categories d-flex pt-3">
+              <span class="mag-tag">IN FOCUS</span>
+            </div>
+            <p class="categories-title pt-3">ROCKET MEN</p>
+          </div>
+        </div>    
+      </div>
+      <div class="editors-pick mt-3 px-3">
+        <div class="title-editors d-flex justify-content-center align-items-center py-3">
+          <div class="icon-newsletter"></div>
+          <p class="editors-title-inside m-0 pl-3">EDITOR'S PICK</p>
+        </div>
+        <div class="picked-cont">
+          <div class="picked-item-cont">
+            <div class="editors-item d-flex align-items-end mt-3">
+              <div class="bottom-tag">U.S.</div>
+            </div>
+            <p class="editors-title pt-3">This City in New York State Wants to Cancel Unpaid Rent Due to Coronavirus</p>
+            <p class="summ-edit">If the resolution is approved by the state, local leaders would also work to provide relief for small landlords and homeowners.</p>
+          </div>
+          <div class="picked-item-cont">
+            <div class="editors-item ed-it1 d-flex align-items-end mt-3">
+              <div class="bottom-tag">U.S.</div>
+            </div>
+            <p class="editors-title pt-3">WH Adviser Calls Extra Unemployment Benefit 'a Disincentive' to Work</p>
+            <p class="summ-edit">"It's better than their salaries," Larry Kudlow said.</p>
+          </div>
+          <div class="picked-item-cont">
+            <div class="editors-item ed-it2 d-flex align-items-end mt-3">
+              <div class="bottom-tag">WORLD</div>
+            </div>
+            <p class="editors-title pt-3">Boris Johnson Says "Sense of Victimization" Among Protesters Should Stop</p>
+            <p class="summ-edit">The prime minister has said wants to change the "narrative so we stop the sense of victimization and discrimination".</p>
+          </div>
+          <div class="picked-item-cont">
+            <div class="editors-item ed-it3 d-flex align-items-end mt-3">
+              <div class="bottom-tag">NEWS</div>
+            </div>
+            <p class="editors-title pt-3">Meghan Markle Praises Grenfell Tower Community Workers on Fire Anniversary</p>
+            <p class="summ-edit">The Duchess of Sussex praised the "love in action" of volunteer chefs at a community kitchen set up in the wake of a deadly fire that killed 72 and became a symbol of inequality in Britain.</p>
+          </div>
+          <div class="picked-item-cont">
+            <div class="editors-item ed-it4 d-flex align-items-end mt-3">
+              <div class="bottom-tag">TECH & SCIENCE</div>
+            </div>
+            <p class="editors-title pt-3">Mysterious Green Fireball Spotted Above Remote Australian Outback</p>
+            <p class="summ-edit">"It was really a spectacular observation. People have captured something very special here," said Glen Nagle from the Canberra Deep Space Communication Complex.</p>
+          </div>
+          <div class="picked-item-cont">
+            <div class="editors-item ed-it5 d-flex align-items-end mt-3">
+              <div class="bottom-tag">CULTURE</div>
+            </div>
+            <p class="editors-title pt-3">Gen Z Are Destroying Millennials on TikTok</p>
+            <p class="summ-edit">It started with a Gen Z TikTok user saying: "Personally I don't want to be associated with people who still think that Harry Potter movies are a personality trait."</p>
+          </div>
+          <div class="picked-item-cont">
+            <div class="editors-item ed-it6 d-flex align-items-end mt-3">
+              <div class="bottom-tag">U.S.</div>
+            </div>
+            <p class="editors-title pt-3">Atlanta Police Chief Resigns After Rayshard Brooks' Death</p>
+            <p class="summ-edit">Atlanta Mayor Keisha Lance Bottoms has accepted Erika Shields' resignation following a police-involved shooting death of a 27-year-old man Friday night.</p>
+          </div>
+          <div class="picked-item-cont">
+            <div class="editors-item ed-it7 d-flex align-items-end mt-3">
+              <div class="bottom-tag">WORLD</div>
+            </div>
+            <p class="editors-title pt-3">The Mafia's Long-Shot Payout From a Medical Industry Takeover</p>
+            <p class="summ-edit mb-0">As the coronavirus spread across Italy and deeper into Europe, criminal groups worked their way into the health-care system.</p>
+          </div>  
+        </div>  
+      </div>
+      <div class="picks-container d-flex flex-column  px-3">
+        <p class="title-picks pt-3 mt-3">U.S.</p>
+        <div class="picks-item d-flex flex-column">
+          <div class="bot-picks-item-cont">
+            <div class="image-picks imgepicksus1"></div>
+            <p class="picks-summary pt-3">Two-thirds of workers make more in unemployment than they did at work</p>
+          </div>
+          <div class="bot-picks-item-cont">
+            <div class="image-picks imgepicksus2"></div>
+            <p class="picks-summary pt-3">Trump Says Bolton's Authorship of Tell-All Book 'Highly Inappropriate'</p>
+          </div>
+          <div class="bot-picks-item-cont1">
+            <div class="extra-picks-item-a d-flex pb-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600900/coronavirus-us.jpg?w=95&h=95&f=5d39f1e84fdf9a5039103b05cf684576" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-b d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600900/coronavirus-us.jpg?w=95&h=95&f=5d39f1e84fdf9a5039103b05cf684576" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-c d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600900/coronavirus-us.jpg?w=95&h=95&f=5d39f1e84fdf9a5039103b05cf684576" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+          </div>    
+        </div>
+        <p class="title-picks pt-3 mt-3">WORLD</p>
+        <div class="picks-item d-flex flex-column">
+          <div class="bot-picks-item-cont">
+            <div class="image-picks imagepicksworld1"></div>
+            <p class="picks-summary pt-3">Bolton Says He Warned Barr About Trump's Potential 'Obstruction of Justice'</p>
+          </div>
+          <div class="bot-picks-item-cont">  
+            <div class="image-picks imagepicksworld2"></div>
+            <p class="picks-summary pt-3">Trump Says Bolton's Authorship of Tell-All Book 'Highly Inappropriate'</p>
+          </div>
+          <div class="bot-picks-item-cont1">  
+            <div class="extra-picks-item-a d-flex pb-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600775/augustine-tanner-ihm.jpg?w=95&h=95&f=3bc5f634f3233e88e6fb9b92a02ba872" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-b d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600775/augustine-tanner-ihm.jpg?w=95&h=95&f=3bc5f634f3233e88e6fb9b92a02ba872" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-c d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600775/augustine-tanner-ihm.jpg?w=95&h=95&f=3bc5f634f3233e88e6fb9b92a02ba872" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+          </div> 
+        </div>
+        <p class="title-picks pt-3 mt-3">BUSSINES</p>
+        <div class="picks-item d-flex flex-column">
+          <div class="bot-picks-item-cont">
+            <div class="image-picks imagepicksbussines1"></div>
+            <p class="picks-summary pt-3">Mark Cuban talks race and robotics</p>
+          </div>
+          <div class="bot-picks-item-cont">    
+            <div class="image-picks imagepicksbussines2"></div>
+            <p class="picks-summary pt-3">McConnell Could Lose Senate Seat If He Doesn't Deliver Bailout to Kentucky</p>
+          </div>
+          <div class="bot-picks-item-cont1">  
+            <div class="extra-picks-item-a d-flex pb-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1592220/wall-street-during-coronavirus.jpg?w=95&h=95&f=ca0ff41f553bd27bbcd73672990e8dce" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-b d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1592220/wall-street-during-coronavirus.jpg?w=95&h=95&f=ca0ff41f553bd27bbcd73672990e8dce" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-c d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1592220/wall-street-during-coronavirus.jpg?w=95&h=95&f=ca0ff41f553bd27bbcd73672990e8dce" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+          </div>
+        </div>
+        <p class="title-picks pt-3 mt-3">TECH & SCIENCE</p>
+        <div class="picks-item d-flex flex-column">
+          <div class="bot-picks-item-cont">  
+            <div class="image-picks imagepicksrtech1"></div>
+            <p class="picks-summary pt-3">Volcano in China Appears to Be 'Recharging,' Scientists Say</p>
+          </div>
+          <div class="bot-picks-item-cont">  
+            <div class="image-picks imagepicksrtech2"></div>
+            <p class="picks-summary pt-3">Instagram Rejects 'Flawed' Study Claiming It Boosts Semi-Nude Photos</p>
+          </div>
+          <div class="bot-picks-item-cont1">  
+            <div class="extra-picks-item-a d-flex pb-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1391012/who-emma-corrin.jpg?w=95&h=95&f=5b32f477d3cf23e179d479d17f6c8692" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-b d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1391012/who-emma-corrin.jpg?w=95&h=95&f=5b32f477d3cf23e179d479d17f6c8692" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-c d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1391012/who-emma-corrin.jpg?w=95&h=95&f=5b32f477d3cf23e179d479d17f6c8692" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+          </div>  
+        </div>
+        <p class="title-picks pt-3 mt-3">CULTURE</p>
+        <div class="picks-item d-flex flex-column">
+          <div class="bot-picks-item-cont">  
+            <div class="image-picks imagepicksrculture1"></div>
+            <p class="picks-summary pt-3">'Married at First Sight' Set to Return With Season 11 in New Orleans</p>
+          </div>
+          <div class="bot-picks-item-cont">  
+            <div class="image-picks imagepicksrculture2"></div>
+            <p class="picks-summary pt-3">Ashley Wants to Give Anthony a Quarantine Cut on 'MAFS: Couples Cam'</p>
+          </div>
+          <div class="bot-picks-item-cont1">  
+            <div class="extra-picks-item-a d-flex pb-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600221/twitter-logo.jpg?w=95&h=95&f=d2dc08784d9bc11db5433a8fa280f8aa" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-b d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600221/twitter-logo.jpg?w=95&h=95&f=d2dc08784d9bc11db5433a8fa280f8aa" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-c d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600221/twitter-logo.jpg?w=95&h=95&f=d2dc08784d9bc11db5433a8fa280f8aa" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+          </div>  
+        </div>
+        <p class="title-picks pt-3 mt-3">SPORTS</p>
+        <div class="picks-item d-flex flex-column">
+          <div class="bot-picks-item-cont">  
+            <div class="image-picks imagepicksrsports1"></div>
+            <p class="picks-summary pt-3">Shotzi Blackheart Is Ready to Bring Her 'Daredevil Spirit' to NXT</p>
+          </div>
+          <div class="bot-picks-item-cont">  
+            <div class="image-picks imagepicksrsports2"></div>
+            <p class="picks-summary pt-3">Aubrey Huff Says He Would Rather Die From Coronavirus Than Wear a Mask</p>
+          </div>
+          <div class="bot-picks-item-cont1">  
+            <div class="extra-picks-item-a d-flex pb-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600081/wwe-raw-christian-randy-orton.jpg?w=95&h=95&f=bf1a0246fd9f92a724ced38a7ec2babc" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-b d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600081/wwe-raw-christian-randy-orton.jpg?w=95&h=95&f=bf1a0246fd9f92a724ced38a7ec2babc" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+            <div class="extra-picks-item-c d-flex py-3">
+              <img class="img-extra-picks mr-3" src="https://d.newsweek.com/en/full/1600081/wwe-raw-christian-randy-orton.jpg?w=95&h=95&f=bf1a0246fd9f92a724ced38a7ec2babc" alt="icon">
+              <p class="extra-summary">Backgrounds of Harris Demings Questioned As Biden Shortlists Them for VP</p>
+            </div>
+          </div>  
+        </div> 
+      </div>
+      <div class="bottom-page d-flex flex-column mt-1 p-3">
+        <div class="botp1">
+          <p class="substitle">SUBSCRIBE</p>
+          <div class="subsbottom d-flex py-4 justify-content-center">
+            <div class="mag-covers d-flex pl-4">
+              <div class="mag-cover1">
+                <img alt="icon" class="lazyloaded" src="https://d.newsweek.com/en/full/1596252/cover-june-12-2020.jpg?w=170&amp;q=95&amp;f=fdda5cadbe8011b01a2d540d06703b6e">
+              </div>
+              <div class="mag-cover2">
+                <img alt="icon" class="lazyloaded" src="https://d.newsweek.com/en/full/1597761/cover-june-19-26-2020.jpg?w=170&amp;q=95&amp;f=5fb0215ca8fd65a8cfe24229880661d4">
+              </div>
+            </div>
+            <div class="covers-info p-3">
+              <p class="ci-1">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
+              <p class="ci-2">All Access + Weekly Delivery. <br> Choose A Membership That's Perfect for You!</p>
+              <button class="ci-3">SUBSCRIBE ></button>
+            </div>
+          </div>
+        </div>  
+        <div class="newslbottom mt-3">
+          <p class="substitle">NEWSLETTER</p>
+            <diV class="form-info p-3">
+              <p class="form-info1">The Starting 5</p>
+              <p class="form-info2">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+              <input class="sign-email mb-2" type="text" placeholder="Email address">
+              <input class="freesign-button mb-2" type="submit" value="FREE SIGN UP">
+            </div>
+        </div>
+      </div>
+      <footer class="container p-3 mt-1">
+        <div class="footer-icons d-flex pt-2">
+          <div class="logo-footer d-flex">  
+            <svg class="alt-svg" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background: new 0 0 395.6 60;" xml:space="preserve"><g>
+              <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+              </g>
+            </svg>
+            <p class="d-flex align-items-end mb-0">© 2020 NEWSWEEK</p>
+          </div>
+          <div class="footer-icons1 d-flex justify-content-end">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-tumblr"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+        <div class="editions">
+          <ul class="edit-list p-0">
+            <li class="edit-item "><a href="#">U.S. Edition</a></li>
+            <li class="edit-item "><a href="#">日本</a></li>
+            <li class="edit-item "><a href="#">Pakistan</a></li>
+            <li class="edit-item "><a href="#">Polska</a></li>
+            <li class="edit-item "><a href="#">România</a></li>
+            <li class="edit-item "><a href="#">About Us</a></li>
+            <li class="edit-item "><a href="#">Corrections</a></li>
+            <li class="edit-item "><a href="#">Contact Us</a></li>
+            <li class="edit-item "><a href="#">Editorial Guidelines</a></li>
+            <li class="edit-item "><a href="#">Advertise</a></li>
+            <li class="edit-item "><a href="#">Copyright</a></li>
+            <li class="edit-item "><a href="#">Terms & Conditions</a></li>
+            <li class="edit-item "><a href="#">Privacy Policy</a></li>
+            <li class="edit-item "><a href="#">Cookie Policy</a></li>
+            <li class="edit-item "><a href="#">Terms of Sale</a></li>
+            <li class="edit-item "><a href="#">Archive</a></li>
+            <li class="edit-item "><a href="#">Announcements</a></li>
+            <li class="edit-item "><a href="#">Consent preferences</a></li>
+          </ul>  
+        </div>
+      </footer>
+    </main>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/68c9428c25.js" crossorigin="anonymous"></script>
+  </body>
+</html>
