@@ -1096,6 +1096,15 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .mag-covers {
+    width: 70%;
+  }
+
+  .covers-info {
+    width: 100%;
+    text-align: center;
+  }
+
   .subsbottom {
     align-items: center;
     flex-direction: column;
