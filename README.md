@@ -23,7 +23,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jacobo12montes/Newsweek-Bootstrap-/responsive/index.html)
+[Live Demo Link](https://raw.githack.com/jacobo12montes/Newsweek-Bootstrap-/master/index.html)
 
 ## Getting Started
 
